@@ -1,0 +1,49 @@
+<acceptance-test-run title="Test auth" name="TestAuth" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="48273" timestamp="2015-04-16T09:17:02.108+03:00">
+  <user-story id="utils.Application.TestAuth.Compare" name="Compare" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Compare" type="story"/>
+    <tag name="Sign Up" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="31558">
+    <screenshots>
+      <screenshot image="3c62c05d2eb6610ab02b4703c3122776_NONE.png"/>
+    </screenshots>
+    <description>Launch your web browser - &apos;Chrome&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3632">
+    <screenshots>
+      <screenshot image="0bb8a4e3f822e2b1391adcebc3888665_NONE.png"/>
+      <screenshot image="4b486c0bd6188ab2889967b83adab62b_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Log in&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2688">
+    <screenshots>
+      <screenshot image="c0a09a10f45b44406cb0e08a9914a4ca_NONE.png"/>
+    </screenshots>
+    <description>Enter data &apos;Email&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1062">
+    <screenshots>
+      <screenshot image="9184e0886db97dcf55c55b60bde5c63a_NONE.png"/>
+      <screenshot image="ab4c12fe1b66e8231476ce110bdcd49a_NONE.png"/>
+    </screenshots>
+    <description>Enter data &apos;Password&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="896">
+    <screenshots>
+      <screenshot image="71fc929e83635f9715b16b79d7752288_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;CheckBox&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2849">
+    <screenshots>
+      <screenshot image="ace87a57de364375cec1abb7d5c89c1d_NONE.png"/>
+      <screenshot image="7ac56dabb5b2f31f5dc5f24d2ebcabb7_NONE.png"/>
+    </screenshots>
+    <description>Pushed &apos;Login&apos;</description>
+  </test-step>
+</acceptance-test-run>

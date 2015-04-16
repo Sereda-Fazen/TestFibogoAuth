@@ -1,0 +1,50 @@
+<acceptance-test-run title="Two test auth" name="TwoTestAuth" steps="6" successful="5" failures="1" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="18629" timestamp="2015-04-16T09:17:54.169+03:00">
+  <user-story id="utils.Application.TestAuth.Compare" name="Compare" path="utils.Application.TestAuth">
+    <feature id="utils.Application.TestAuth" name="Test auth"/>
+  </user-story>
+  <tags>
+    <tag name="Test auth" type="feature"/>
+    <tag name="Compare" type="story"/>
+    <tag name="Sign Up Error" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="11312">
+    <screenshots>
+      <screenshot image="3c62c05d2eb6610ab02b4703c3122776_NONE.png"/>
+    </screenshots>
+    <description>Launch your web browser - &apos;Chrome&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2010">
+    <screenshots>
+      <screenshot image="0bb8a4e3f822e2b1391adcebc3888665_NONE.png"/>
+      <screenshot image="4b486c0bd6188ab2889967b83adab62b_NONE.png"/>
+    </screenshots>
+    <description>Clicked &apos;Log in&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1025">
+    <screenshots>
+      <screenshot image="c0a09a10f45b44406cb0e08a9914a4ca_NONE.png"/>
+    </screenshots>
+    <description>Enter data &apos;Email&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="881">
+    <screenshots>
+      <screenshot image="443354a8e41bb1c882cec49a7a805635_NONE.png"/>
+    </screenshots>
+    <description>Enter data &apos;Password&apos;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="545">
+    <screenshots>
+      <screenshot image="9cdfd8d046ead20dea387c0bf9218861_NONE.png"/>
+    </screenshots>
+    <description>Clicked checkBox</description>
+  </test-step>
+  <test-step result="FAILURE" duration="1221">
+    <screenshots>
+      <screenshot image="9456104248b55ca9ccfffcac92b8f6f3_NONE.png"/>
+    </screenshots>
+    <description>Pushed &apos;Login&apos;</description>
+    <error>Invalid username or password</error>
+    <exception>java.lang.AssertionError:Invalid username or password&#xd;
+[com.thoughtworks.selenium.SeleneseTestBase.fail(SeleneseTestBase.java:393), com.thoughtworks.selenium.SeleneseTestBase.assertTrue(SeleneseTestBase.java:397), com.thoughtworks.selenium.SeleneseTestBase.assertFalse(SeleneseTestBase.java:405), page.AuthError.setLoginError(AuthError.java:65), steps.AuthErrorSteps.addError(AuthErrorSteps.java:45), tests.TestAuth.TwoTestAuth(TestAuth.java:46)]</exception>
+  </test-step>
+</acceptance-test-run>
